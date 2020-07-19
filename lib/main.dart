@@ -101,7 +101,7 @@ class MyApp extends StatelessWidget {
       title: 'Ejemplo1',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Ejemplo1'),
+          title: Text('Ejemplo2'),
         ),
         body: ListView(
           children: [
