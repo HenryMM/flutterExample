@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: Text(
-                    'Texto ejemplo',
+                    'Texto ejemplo1',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -98,10 +98,10 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      title: 'Ejemplo',
+      title: 'Ejemplo1',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Ejemplo'),
+          title: Text('Ejemplo1'),
         ),
         body: ListView(
           children: [
