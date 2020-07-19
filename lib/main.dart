@@ -90,9 +90,9 @@ class MyApp extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          _buildButtonColumn(color, Icons.add, 'CREATE'),
-          _buildButtonColumn(color, Icons.edit, 'EDIT'),
-          _buildButtonColumn(color, Icons.delete, 'DELETE'),
+          _buildButtonColumn(color, Icons.add, 'CREAR'),
+          _buildButtonColumn(color, Icons.edit, 'EDITAR'),
+          _buildButtonColumn(color, Icons.delete, 'ELIMINAR'),
         ],
       ),
     );
